@@ -217,7 +217,7 @@ body {
 
 .platform li {
   display: inline-block;
-  padding: 5% 9%;
+  padding: 50px 90px;
   text-align: center;
 }
 
@@ -240,7 +240,7 @@ body {
 }
 /*左边部分*/
 .main-left {
-  margin-left: 8%;
+  margin-left: 100px;
   width: 540px;
   float: left;
 }
@@ -556,37 +556,47 @@ body {
 .copy-right {
   width: 1200px;
   height: 50px;
-  margin: 5px auto;
   position: relative;
+  top: 5px;
 }
 
 .mes {
-  float: left;
-  margin-left: 270px;
+  /*float: left;*/
+  /*margin-left: 270px;*/
 }
 
-.footer p i {
-  color: #ef9616;
+.footer  p {
   font-size: 16px;
   font-style: normal;
+  position: relative;
+  top: 15px;
+  /*left: 240px;*/
 }
 
-.footer span {
-  margin-top: 4px;
+.footer i {
+  color: #ef9616;
+  font-size: 16px;
 }
 
 .wechat {
   width: 45px;
   height: 45px;
   background: url("../images/wechat.png ") no-repeat;
-  float: left;
   font-size: 12px;
   background-size: contain;
-  margin-left: 50px;
+  position: absolute;
+  top: 15px;
+  right: 140px;
+}
+
+.tech {
+  position: absolute;
+  top: 45px;
+  left: 450px;
 }
 
 .care {
   position: absolute;
-  top: 8px;
-  left: 820px;
+  top: 15px;
+  right: 220px;
 }
